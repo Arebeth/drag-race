@@ -1,0 +1,152 @@
+//RACETRACK-------------------------------------------------VV
+.container {
+	margin: 0 auto;
+	width: 90%;
+	height: 200px;
+
+}
+.roadway {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	height: 100px;
+	border: 2px solid black;
+	top: 75px;
+	background-color: #6B4700
+}
+.racetrack {
+	display: inline-block;
+	position: absolute;
+}
+#prestage {
+	width: 100px;
+	min-width: 100px;
+	height: 100px;
+	min-height: 100px;
+	background-color: orange;
+	left: 0px;
+}
+#marker1 {
+	width: 5px;
+	min-width: 5px;
+	height: 100px;
+	min-height: 100px;
+	background-color: white;
+	left: 100px;
+}
+#stage {
+	width: 100px;
+	min-width: 100px;
+	height: 100px;
+	min-height: 100px;
+	background-color: gold;
+	left: 105px;
+}
+#marker2 {
+	width: 5px;
+	min-width: 5px;
+	height: 100px;
+	min-height: 100px;
+	background-color: white;
+	left: 205px;
+}
+#track {
+	height: 100px;
+	min-height: 100px;
+	width: 476px;
+	left: 210px;
+}
+#finishline {
+	width: 10px;
+	min-width: 10px;
+	height: 100px;
+	min-height: 100px;
+	background-color: white;
+	right: 100px;
+}
+#victorylane {
+	width: 100px;
+	min-width: 100px;
+	height: 100px;
+	min-height: 100px;
+	background-color: #476B00;
+	right: 0px;
+}
+
+/*//CHRISTMAS TREE--------------------------------------------VV
+.lightframe {
+//	height: 200px;
+//	width: 102px;
+//	margin: 0 auto;
+//	top: 25; left: 0; bottom: 0; right: 0; 
+
+}*/
+.lights {
+	height: 30px;
+	width: 100px;
+	border: 1px solid #476B00;
+	radiant: ;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #6B4700;
+}
+.lights div {
+	height: 20px;
+	width: 20px;
+	border-radius: 15px;
+	background-color: #6B4700;
+	display: inline-block;
+	margin-top: 5px;
+}
+.pre-stage, .stage {
+	height: 40px;
+	width: 100px;
+	border: 1px solid #476B00;
+	radiant: ;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #6B4700;
+	color: white;
+}
+.pre-stage div, .stage div{
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	background-color: #6B4700;
+	display: inline-block;
+	margin-top: 2px;
+}
+.stage div{
+	background-color: #6B4700;
+}
+.startlights div{
+	background-color: #6B4700;
+}
+.false-startlights div{
+	background-color: #6B4700;
+}
+#christmasTree {
+	border: 3px solid #476B00;
+	width: 100px;
+	margin: 0 auto;
+}
+
+body {
+	background-image: url(865514-bigthumbnail.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#player {
+	background: url(./images/maple.jpg) no-repeat;
+	background-size: 50px 50px;
+	background-color: purple;
+	width: 50px;
+	height: 50px;
+	top: 25px;
+	z-index: 1;
+	position: absolute;
+
+}

@@ -124,8 +124,7 @@
 		};
 	};
 
-//Game constructor object
-Game = function() {
+//Overall game functions
 //create new instances of ChristmasTree, Car & Track
 
 	var christmasTree = new ChristmasTree(document.getElementById("christmasTree"));
@@ -183,6 +182,8 @@ Game = function() {
 		}
 		//if they press any other key, do nothing.
 	});
-};
+//
+//Game constructor object - did not use
+//Game = function() {};
 //run the very beginning anonymous function.
 })();
